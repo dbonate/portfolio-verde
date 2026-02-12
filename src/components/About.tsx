@@ -78,19 +78,20 @@ const About = () => {
 
             <div className="space-y-4 text-secondary-600">
               <p>
-                Minha jornada na tecnologia começou em um lugar improvável: a roça. Em um
-                ambiente onde poucos acreditavam ser possível, minha paixão por novas tecnologias, games e
-                me impulsionou a quebrar barreiras e construir uma carreira como
-                Engenheiro DevOps na maior cidade do país. Hoje, com mais de 13 anos de
-                experiência, transformo essa mesma paixão em soluções de alta performance.
+                Analista dedicada a transformar dados em organização. Minha experiência abrange o ciclo
+                completo de gestão de cadastros — desde a entrada de notas fiscais até a estruturação de
+                processos e atendimento a clientes — sempre priorizando a acuracidade e a conformidade das
+                informações. Acredito que a excelência operacional nasce da atenção aos detalhes e de um
+                fluxo de trabalho bem estruturado, pilares que guiam minha atuação profissional para
+                impulsionar os resultados do negócio.
               </p>
 
               <p>
-                Para mim, a tecnologia de ponta — seja arquitetura cloud, automação ou CI/CD — funciona com a mesma lógica de uma corrida de Fórmula 1: cada segundo, cada otimização e cada decisão estratégica contam. É com essa mentalidade, inspirada nas pistas e na lógica dos games, que abordo cada projeto, utilizando ferramentas como Python, Kubernetes e as principais plataformas de cloud para garantir entregas rápidas e eficientes.
+                Para mim, uma operação eficiente — baseada em cadastros precisos e fluxos de notas fiscais bem estruturados — é o alicerce de qualquer grande empresa. Assim como em uma infraestrutura robusta, a falha em um pequeno dado pode comprometer todo o resultado. Com essa visão estratégica e olhar atento aos processos, transformo a complexidade burocrática em fluxos ágeis, garantindo que a base de clientes e informações seja sempre o ativo mais confiável da organização.
               </p>
 
               <p>
-                Acredito que o talento não tem CEP. Por ter vivido essa transformação, minha missão é ser a ponte para outros que também sonham com a área de TI. Dedico meu tempo a descomplicar o universo da tecnologia e a mentorar novos talentos, provando que, com a direção certa, qualquer um pode cruzar a linha de chegada.
+                Acredito que processos bem desenhados eliminam barreiras para o crescimento. Minha missão é atuar como o elo estratégico entre a entrada de dados e a entrega final ao cliente, garantindo que notas e cadastros fluam sem erros. Dedico meu trabalho a manter a excelência operacional, provando que a organização técnica e o olhar atento aos processos são as ferramentas mais poderosas para sustentar o sucesso de uma organização.
               </p>
             </div>
 
@@ -101,23 +102,23 @@ const About = () => {
               <ul className="space-y-2 text-secondary-600">
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 rounded-full"></div>
-                  <span>Construir soluções robustas, escaláveis e de alta performance</span>
+                  <span>Precisão de Dados: Garantir a integridade e a acurácia absoluta em todos os cadastros e registros.</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 rounded-full"></div>
-                  <span>Garantir a melhor performance e confiabilidade na experiência do usuário</span>
+                  <span>Eficiência Operacional: Otimizar fluxos para máxima agilidade e conformidade nos processos corporativos.</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 rounded-full"></div>
-                  <span>Promover a colaboração e a comunicação como motores para a inovação</span>
+                  <span>Sinergia entre Áreas: Promover a colaboração entre departamentos para eliminar gargalos operacionais.</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 rounded-full"></div>
-                  <span>Manter um compromisso real com o aprendizado contínuo e a evolução tecnológica</span>
+                  <span>Atualização Contínua: Manter o foco constante em novas normas fiscais e metodologias de gestão.</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary-500 rounded-full"></div>
-                  <span>Compartilhar conhecimento para fortalecer a comunidade e mentorar novos talentos</span>
+                  <span>Padronização Técnica: Documentar e compartilhar boas práticas para elevar o desempenho do time.</span>
                 </li>
               </ul>
             </div>

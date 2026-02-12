@@ -121,19 +121,19 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Serviços</h4>
             <ul className="space-y-2">
               <li>
-                <span className="text-secondary-300">Platform Engineering</span>
+                <span className="text-secondary-300">Analista Financeiro</span>
               </li>
               <li>
-                <span className="text-secondary-300">DevSecOps Implementation</span>
+                <span className="text-secondary-300">Gestão de Notas Fiscais</span>
               </li>
               <li>
-                <span className="text-secondary-300">Cloud Architecture</span>
+                <span className="text-secondary-300">Cadastro de Clientes e Parceiros</span>
               </li>
               <li>
-                <span className="text-secondary-300">CI/CD Automation</span>
+                <span className="text-secondary-300">Gestão de Fornecedores</span>
               </li>
               <li>
-                <span className="text-secondary-300">Infrastructure as Code</span>
+                <span className="text-secondary-300">Otimização de Processos</span>
               </li>
             </ul>
           </motion.div>

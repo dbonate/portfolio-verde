@@ -6,49 +6,49 @@ import { Briefcase, Calendar, MapPin, ExternalLink } from 'lucide-react'
 const Experience = () => {
   const experiences = [
     {
-      company: 'RD Saúde',
-      position: 'DevOps Senior',
-      period: '11/2025 - Atual',
+      company: 'Machado Meyer Advogados',
+      position: 'Financial Analyst',
+      period: '01/2020 - 11/2024',
       location: 'São Paulo, SP',
-      description: 'Liderança técnica em projetos de Cloud e IA.',
-      technologies: ['AWS', 'Terraform', 'Kubernetes', 'GitLab', 'ArgoCD', 'Backstage', 'Python'],
+      description: 'Cadastro de fornecedores externos; cadastro e conferência de clientes. Conferência de dados cadastrais na receita federal e simples nacional',
+      technologies: ['SalesForce', 'Excel'],
+      link: 'https://www.machadomeyer.com.br/pt/'
+    },
+    {
+      company: 'Machado Meyer Advogados',
+      position: 'Estagiário de Secretariado',
+      period: '08/2018 - 07/2019',
+      location: 'São Paulo, SP',
+      description: 'Apoio à secretárias das áreas, realizando calls, atendimento telefônico, emissão de cheque para pagamentos de cliente, compra de material, cotação de voos e compras das passagens aéreas, organização de agenda, reuniões, recados, follow up de atividades.Padronização de documentos e pastas.',
+      technologies: ['Outlook', 'Excel', 'Word'],
+      link: 'https://www.machadomeyer.com.br/pt/'
+    },
+    {
+      company: 'Volkswagem do Brasil',
+      position: 'Estágio em Secretariado',
+      period: '03/2018 - 08/2018',
+      location: 'São Bernardo do Campo, SP',
+      description: 'Secretária do gerente da área da Montagem Final, organizando agenda, reuniões, recados, documentos para assinatura e follow up de atividades. Preparação das reuniões gerenciais, atas, avaliação de housekeeping, padronização de documentos e pastas.',
+      technologies: ['Outlook', 'Excel', 'Word'],
+      link: 'https://www.vw.com.br/pt.html'
+    },
+    {
+      company: 'ABIFA',
+      position: 'Auxiliar Administrativo/Secretaria',
+      period: '09/2013 - 07/2014',
+      location: 'São Paulo, SP',
+      description: 'Atendimento ao PABX transferindo as ligações para os departamentos, controle de correspondências. Auxiliava o Secretário Executivo da empresa fazendo convocações para reuniões da Diretoria, cuidava do mailing com contatos dos associados e diretores, preparava a sala de reuniões, controle de estoque e compras de materiais de escritório de limpeza.',
+      technologies: ['Outlook', 'Excel', 'Word'],
       link: '#'
     },
     {
-      company: 'Novigo IT',
-      position: 'DevOps Senior',
-      period: '08/2025 - 11/2025',
+      company: 'Grupo GV Risco',
+      position: 'Operador de Rastreamento',
+      period: '11/2010 - 09/2011',
       location: 'São Paulo, SP',
-      description: 'Administração de GCP e Cloud Terraform, gerenciamento de Kubernetes.',
-      technologies: ['AWS', 'Terraform', 'Kubernetes', 'GitLab', 'Grafana', 'Prometheus', 'Kafka'],
+      description: 'Atuando na área de logística, atendimento ao telefone e rádio Nextel para comunicar-se com as transportadoras, Pa’s e motoristas através de um código de identificação. E-mails, finalizações de ocorrências via sistema, baixa em notas fiscais atuais e excedidas pelo sistema.',
+      technologies: ['Sistema de rastreamento'],
       link: '#'
-    },
-    {
-      company: 'NTT Data',
-      position: 'Lead Engineer Technology',
-      period: '08/2022 - 06/2025',
-      location: 'São Paulo, SP',
-      description: 'Liderança técnica em projetos de OCR com API-Gateway privado, Lambdas privadas, Cloudvision e Gemini. Administração de AWS, IAC com Terraform, Kubernetes, GitLab CI/CD, ArgoCD e Backstage para catálogo de serviços.',
-      technologies: ['AWS', 'Terraform', 'Kubernetes', 'GitLab', 'ArgoCD', 'Backstage', 'Python'],
-      link: 'https://br.nttdata.com/'
-    },
-    {
-      company: 'FreteBras - FretePago',
-      position: 'DevOps Engineer + Tech Lead',
-      period: '01/2022 - 08/2022',
-      location: 'São Paulo, SP',
-      description: 'Administração de AWS e Cloud Terraform, gerenciamento de Kubernetes, implementação de GitLab, Instana, Kong/Konga, Rancher, Grafana, Prometheus e Kafka. Início do projeto "FretePago" Bank.',
-      technologies: ['AWS', 'Terraform', 'Kubernetes', 'GitLab', 'Grafana', 'Prometheus', 'Kafka'],
-      link: 'https://ib.fretepago.com.br/'
-    },
-    {
-      company: 'Pravaler SA',
-      position: 'Analista DevOps',
-      period: '01/2022 - 08/2022',
-      location: 'São Paulo, SP',
-      description: 'Suporte para desenvolvedores em aplicativos e infraestrutura. Gerenciamento de nuvem Google Cloud Platform.',
-      technologies: ['GCP', 'AWS', 'Kubernetes', 'Docker', 'Github'],
-      link: 'https://www.pravaler.com.br/sobre-o-pravaler/'
     },
   ]
 
@@ -172,10 +172,10 @@ const Experience = () => {
               className="bg-secondary-50 rounded-xl p-6"
             >
               <h4 className="text-lg font-semibold text-secondary-900 mb-2">
-                MBA in Artificial Intelligence
+                Secretariado Executivo Trílingue
               </h4>
-              <p className="text-secondary-600 mb-2">Falculdade Impacta</p>
-              <p className="text-sm text-secondary-500">08/2025</p>
+              <p className="text-secondary-600 mb-2">Centro Universitário FMU | FIAM-FAAM</p>
+              <p className="text-sm text-secondary-500">12/2019</p>
             </motion.div>
 
             <motion.div
@@ -186,9 +186,9 @@ const Experience = () => {
               className="bg-secondary-50 rounded-xl p-6"
             >
               <h4 className="text-lg font-semibold text-secondary-900 mb-2">
-                AWS Solutions Architect - Associate
+                Escola de Idiomas
               </h4>
-              <p className="text-secondary-600 mb-2">Amazon Web Services</p>
+              <p className="text-secondary-600 mb-2">English</p>
               <p className="text-sm text-secondary-500">07/2024</p>
             </motion.div>
           </div>
