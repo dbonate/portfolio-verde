@@ -7,59 +7,37 @@ const Skills = () => {
   const skillCategories = [
     {
       icon: Cloud,
-      title: 'Cloud & DevOps',
+      title: 'Office 365',
       skills: [
-        { name: 'AWS', level: 95 },
-        { name: 'Google Cloud Platform', level: 85 },
-        { name: 'Kubernetes', level: 94 },
-        { name: 'Terraform', level: 85 },
-        { name: 'Docker', level: 85 },
+        { name: 'Word', level: 90 },
+        { name: 'Excel', level: 88 },
+        { name: 'PowerPoint', level: 80 },
+        { name: 'Outlook', level: 95 },
+        { name: 'Teams', level: 92 },
       ]
     },
     {
       icon: Code,
-      title: 'CI/CD & Platform',
+      title: 'SalesForce',
       skills: [
-        { name: 'GitLab CI/CD', level: 94 },
-        { name: 'ArgoCD', level: 85 },
-        { name: 'Jenkins', level: 80 },
-        { name: 'Backstage', level: 80 },
-        { name: 'Helm', level: 85 },
+        { name: 'Task 1', level: 94 },
+        { name: 'Task 2', level: 85 },
+        { name: 'Task 3', level: 80 },
+        { name: 'Task 4', level: 80 },
+        { name: 'Task 5', level: 85 },
       ]
     },
     {
       icon: Database,
-      title: 'Infrastructure & Monitoring',
+      title: 'Cadastro',
       skills: [
-        { name: 'Grafana', level: 90 },
-        { name: 'Prometheus', level: 80 },
-        { name: 'Instana', level: 75 },
-        { name: 'VMware vSphere', level: 85 },
-        { name: 'Active Directory', level: 80 },
+        { name: 'Funcionários', level: 88 },
+        { name: 'Processos', level: 92 },
+        { name: 'Fornecedores', level: 90 },
+        { name: 'Notas Fiscais', level: 95 },
+        { name: 'Produtos', level: 80 },
       ]
     },
-    {
-      icon: Cpu,
-      title: 'Programming & Scripts',
-      skills: [
-        { name: 'Python', level: 85 },
-        { name: 'Bash Scripting', level: 90 },
-        { name: 'YAML', level: 94 },
-        { name: 'JSON', level: 90 },
-        { name: 'Linux Administration', level: 94 },
-      ]
-    },
-    {
-      icon: Palette,
-      title: 'Security & Compliance',
-      skills: [
-        { name: 'DevSecOps', level: 85 },
-        { name: 'Security Scanning', level: 80 },
-        { name: 'Compliance', level: 75 },
-        { name: 'VPN & Firewall', level: 85 },
-        { name: 'IAM & RBAC', level: 90 },
-      ]
-    }
   ]
 
   return (
@@ -76,7 +54,7 @@ const Skills = () => {
             Habilidades & Tecnologias
           </h2>
           <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
-            Conheça as tecnologias e ferramentas que utilizo para criar soluções inovadoras
+            Conheça os métodos e as ferramentas que utilizo para otimizar processos e dados
           </p>
         </motion.div>
 
@@ -143,17 +121,16 @@ const Skills = () => {
           <h3 className="text-2xl font-semibold text-secondary-900 mb-6 text-center">
             Outras Competências
           </h3>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              'Platform Engineering',
-              'Infrastructure as Code',
-              'Container Orchestration',
-              'Microservices Architecture',
-              'Cloud Native Applications',
-              'Monitoring & Observability',
-              'Security & Compliance',
-              'Disaster Recovery'
+              'Pró-atividade',
+              'Foco na qualidade',
+              'Organização',
+              'Planejamento',
+              'Controle de custos',
+              'Controle de prazos',
+              'Controle de qualidade'
             ].map((skill, index) => (
               <motion.div
                 key={skill}
