@@ -9,11 +9,11 @@ const Skills = () => {
       icon: Cloud,
       title: 'Office 365',
       skills: [
-        { name: 'Word', level: 90 },
-        { name: 'Excel', level: 88 },
-        { name: 'PowerPoint', level: 80 },
-        { name: 'Outlook', level: 95 },
-        { name: 'Teams', level: 92 },
+        { name: 'Word', level: 85 },
+        { name: 'Excel', level: 65 },
+        { name: 'PowerPoint', level: 70 },
+        { name: 'Outlook', level: 90 },
+        { name: 'Teams', level: 90 },
       ]
     },
     {
