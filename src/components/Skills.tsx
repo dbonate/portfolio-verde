@@ -20,11 +20,11 @@ const Skills = () => {
       icon: Code,
       title: 'SalesForce',
       skills: [
-        { name: 'Task 1', level: 94 },
-        { name: 'Task 2', level: 85 },
-        { name: 'Task 3', level: 80 },
-        { name: 'Task 4', level: 80 },
-        { name: 'Task 5', level: 85 },
+        { name: 'Cadastro de Clientes', level: 94 },
+        { name: 'Cadastro de Fornecedores', level: 85 },
+        { name: 'Validação de Dados', level: 80 },
+        { name: 'Gestão de Contatos', level: 80 },
+        { name: 'Relatórios Operacionais', level: 85 },
       ]
     },
     {
