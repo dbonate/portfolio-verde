@@ -8,10 +8,10 @@ const Experience = () => {
     {
       company: 'Machado Meyer Advogados',
       position: 'Financial Analyst',
-      period: '01/2020 - 11/2024',
+      period: '01/2020 - 07/2024',
       location: 'São Paulo, SP',
       description: 'Cadastro de fornecedores externos; cadastro e conferência de clientes. Conferência de dados cadastrais na receita federal e simples nacional',
-      technologies: ['SalesForce', 'Excel'],
+      technologies: ['SalesForce', 'Excel', 'Outlook'],
       link: 'https://www.machadomeyer.com.br/pt/'
     },
     {

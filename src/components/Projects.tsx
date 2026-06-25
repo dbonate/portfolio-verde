@@ -27,7 +27,7 @@ const Projects = () => {
       image: '/images/voluntariado-ronald.png',
       category: 'social',
       technologies: ['Organização', 'Acolhimento', 'Rotinas Administrativas', 'Trabalho em Equipe'],
-      liveUrl: 'https://casaronaldsp.org.br',
+      liveUrl: 'https://casaronaldmcdonaldbrasil.org.br/',
       featured: true
     },
     {
