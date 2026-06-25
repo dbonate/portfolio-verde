@@ -4,10 +4,22 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ExternalLink, Github, Eye } from 'lucide-react'
 
+interface Project {
+  id: number
+  title: string
+  description: string
+  image: string
+  category: string
+  technologies: string[]
+  liveUrl?: string
+  githubUrl?: string
+  featured: boolean
+}
+
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all')
 
-  const projects = [
+  const projects: Project[] = [
     {
       id: 1,
       title: "Voluntariado na Casa Ronald McDonald's",
