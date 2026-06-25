@@ -106,7 +106,7 @@ const Contact = () => {
             Entre em Contato
           </h2>
           <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
-            Vamos conversar sobre seu próximo projeto ou oportunidade de colaboração
+            Estou aberta a novas oportunidades de carreira e colaboração profissional. Fique à vontade para entrar em contato!
           </p>
         </motion.div>
 
@@ -179,12 +179,12 @@ const Contact = () => {
                 Disponibilidade
               </h4>
               <p className="text-secondary-600 mb-4">
-                Estou sempre aberto a novas oportunidades e projetos interessantes.
-                Se você tem uma ideia ou projeto em mente, vamos conversar!
+                Estou em busca de novos desafios profissionais e aberta a novas oportunidades.
+                Se a sua empresa procura alguém dedicada e organizada, vamos conversar!
               </p>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm text-secondary-600">Disponível para novos projetos</span>
+                <span className="text-sm text-secondary-600">Aberta a oportunidades de trabalho</span>
               </div>
             </div>
           </motion.div>
@@ -259,7 +259,7 @@ const Contact = () => {
                   required
                   rows={6}
                   className="w-full px-4 py-3 border border-secondary-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors duration-200 resize-none"
-                  placeholder="Conte-me sobre seu projeto ou oportunidade..."
+                  placeholder="Escreva sua mensagem aqui..."
                 />
               </div>
 
