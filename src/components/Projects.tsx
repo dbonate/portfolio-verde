@@ -10,45 +10,40 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Migração de E-commerce Magento da Adobe Cloud para AWS',
-      description: 'Migração de E-commerce Magento da Adobe Cloud para AWS, com arquitetura altamente escalável e pipeline de CI/CD totalmente automatizado via GitLab e ArgoCD + Keda.',
-      image: '/images/logo-rdsaude.svg',
-      category: 'cloud',
-      technologies: ['AWS', 'Magento (MageOS)', 'PHP', 'MySQL', 'Redis', 'Elasticsearch', 'GitLab CI', 'ArgoCD', 'Keda', 'Terraform', 'Kubernetes'],
-      //liveUrl: '#',
-      //githubUrl: '#',
+      title: "Voluntariado na Casa Ronald McDonald's",
+      description: 'Apoio na acolhida de famílias, organização de doações e suporte administrativo nas rotinas e eventos da instituição.',
+      image: '/images/voluntariado-ronald.png',
+      category: 'social',
+      technologies: ['Organização', 'Acolhimento', 'Rotinas Administrativas', 'Trabalho em Equipe'],
+      liveUrl: 'https://casaronaldsp.org.br',
       featured: true
     },
     {
       id: 2,
-      title: 'OCR System with AI',
-      description: 'Sistema de OCR inteligente para validação de Docs, utilizando Gemini AI. A solução é construída em uma arquitetura serverless segura com API Gateway e Lambdas privadas na AWS.',
-      image: '/images/logo-rdsaude.svg',
-      category: 'devops',
-      technologies: ['AWS', 'Lambda', 'API Gateway', 'Cloudvision', 'Gemini AI', 'Terraform'],
-      //liveUrl: '#',
-      //githubUrl: '#',
+      title: 'Voluntariado em Brechó e Supermercado (Organizer)',
+      description: 'Triagem, precificação e organização de roupas e calçados doados, além de controle de entrada/saída de mantimentos no supermercado da instituição.',
+      image: '/images/voluntariado-brecho.png',
+      category: 'organization',
+      technologies: ['Controle de Estoque', 'Triagem de Itens', 'Organização de Espaços', 'Logística'],
+      liveUrl: '',
       featured: true
     },
     {
       id: 3,
-      title: 'Portfólio Pessoal com CI/CD na AWS',
-      description: 'Este portfólio é um projeto de engenharia de plataforma, construído com Next.js e hospedado em uma arquitetura serverless na AWS, com pipeline de CI/CD totalmente automatizado via GitHub Actions.',
-      image: '/images/Logo-Bonate.png',
-      category: 'cloud',
-      technologies: ['AWS (S3, CloudFront, ACM)', 'Next.js', 'TypeScript', 'Tailwind CSS', 'GitHub Actions (CI/CD)', 'IA Generativa'],
-      liveUrl: 'https://denis.dlbonate.com.br',
-      githubUrl: 'https://github.com/dbonate/portfolio.git',
+      title: 'Voluntariado na Casa de Mãe',
+      description: 'Auxílio direto no acolhimento de mães e bebês, triagem de enxovais, organização dos ambientes e suporte nas demandas diárias de manutenção.',
+      image: '/images/voluntariado-mae.png',
+      category: 'social',
+      technologies: ['Apoio Social', 'Triagem de Enxovais', 'Organização de Ambientes', 'Solidariedade'],
+      liveUrl: '',
       featured: true
     }
   ]
 
   const filters = [
     { id: 'all', label: 'Todos' },
-    { id: 'platform', label: 'Platform' },
-    { id: 'devops', label: 'DevOps' },
-    { id: 'cloud', label: 'Cloud' },
-    { id: 'monitoring', label: 'Monitoring' }
+    { id: 'organization', label: 'Organização' },
+    { id: 'social', label: 'Ação Social' }
   ]
 
   const filteredProjects = activeFilter === 'all'
@@ -156,24 +151,28 @@ const Projects = () => {
 
                 {/* Project Links */}
                 <div className="flex space-x-3">
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center space-x-1 text-primary-600 hover:text-primary-700 transition-colors duration-200"
-                  >
-                    <Eye className="h-4 w-4" />
-                    <span className="text-sm font-medium">Demo</span>
-                  </a>
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center space-x-1 text-secondary-600 hover:text-secondary-700 transition-colors duration-200"
-                  >
-                    <Github className="h-4 w-4" />
-                    <span className="text-sm font-medium">Código</span>
-                  </a>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-1 text-primary-600 hover:text-primary-700 transition-colors duration-200"
+                    >
+                      <Eye className="h-4 w-4" />
+                      <span className="text-sm font-medium">Instituição</span>
+                    </a>
+                  )}
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-1 text-secondary-600 hover:text-secondary-700 transition-colors duration-200"
+                    >
+                      <Github className="h-4 w-4" />
+                      <span className="text-sm font-medium">Código</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>
